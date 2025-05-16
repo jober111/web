@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <title>TIENDA DE CAMISETAS</title>
+    <link rel="stylesheet" href="estilol.css">
+    <script src="app.js" async></script>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Camisetas</h1>
+    </header>
+
+
+
+
+
+    <select id="moneda" onchange="cambiarMoneda()">
+  <option value="ARS">ARS</option>
+  <option value="PEN">PEN</option>
+</select>
+
+
+
+
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">cristiano-portugal</span>
+                <img src="camisetas/cristiano-portugal.webp" alt="" class="img-item">
+                <span class="precio-item">$15.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">messi-argentina</span>
+                <img src="camisetas/messi-argentina.webp" alt="" class="img-item">
+                <span class="precio-item">$25.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">neymar-brasil</span>
+                <img src="camisetas/neymar-brasil.webp" alt="" class="img-item">
+                <span class="precio-item">$35.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Ibrahimović-suecia</span>
+                <img src="camisetas/Ibrahimović-suecia.webp" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">haaland-manchester-city</span>
+                <img src="camisetas/haaland-manchester_city.webp" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">mbappe-real</span>
+                <img src="camisetas/mbappe-real madrid.webp" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">saka-arsenal</span>
+                <img src="camisetas/saka-arsenal.webp" alt="" class="img-item">
+                <span class="precio-item">$54.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">son-tottenham</span>
+                <img src="camisetas/son-tottenham.webp" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">barcola-psg</span>
+                <img src="camisetas/barcola-psg.webp" alt="" class="img-item">
+                <span class="precio-item">$5.800</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
